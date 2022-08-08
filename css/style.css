@@ -1,0 +1,169 @@
+/* ==== First Style ==== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    line-height: 1.5;
+    font-size: 1em;
+    font-family: 'Roboto Slab',
+    serif;
+    font-family: 'Roboto',
+    sans-serif;
+    color: #fff;
+}
+/* ==== Font ==== */
+h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+h3{
+    font-weight: bold;
+    margin-top: 15px;
+}
+div h2{
+    padding: 25px 0 5px;
+}
+h1 span {
+    color: #825260;
+    border-bottom: 1px solid #fff;
+}
+/* ==== Layout ==== */
+.container{
+    background-color: #110d0e;
+    width: 100%;
+    display: flex;
+}
+.left{
+    width: 20%;
+    height: 100vh;
+    border-right: 1px solid #fff;
+    position: fixed;
+    top: 0;
+}
+.right {
+    width: 80%;
+    margin: 0 50px;
+    position: relative;
+    left: 16%;
+}
+.right>div {
+    width: 80%;
+    margin: 20px auto;
+}
+#about,
+#skills,
+#lic_cert {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+}
+/* ==== left side ==== */
+.left div img{
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    /* object-fit: cover; */
+}
+.left p{
+    padding: 20px 30px;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.52);
+    width: 100%;
+        text-align: center;
+}
+.left a{
+    text-decoration: none;
+    font-family: 'Roboto',
+    sans-serif;
+    color: #fff;
+}
+/* ===== Contact =====  */
+.contact{
+    margin: 0 50px;
+}
+.contact a i{
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 20px;
+}
+.left a:hover{
+    color: #825260;
+}
+/* ====  right side ==== */
+#intro{
+    text-align: center;
+    height: 100vh;
+}
+#into h1{
+    text-align: center;
+}
+#intro img, .shape_3{
+    width: 250px;
+    height: 250px;
+    position: relative;
+}  
+/* ==== Date ==== */
+.date{
+    display: flex;
+    justify-content: space-between;
+}
+.date p{
+    color: #825260;
+    font-weight: bolder;
+}
+/* ==== Info -space ==== */
+.info{
+    margin: 30px 0;
+}
+.description{
+    padding-top: 10px;
+    width: 75%;
+}
+.points{
+    padding-left:50px;
+}
+/* ==== images ==== */
+.shape_1 {
+    bottom: 15px;
+    right: 45%;
+}
+.shape_2 {
+    top: 58px;
+    left: 45%;
+}
+/* ==== icons ==== */
+.program i{
+ font-size: 75px;
+ padding: 50px 50px 50px 0;
+ cursor: pointer;
+}
+i.fa-html5:hover{
+    color: #ffa500;
+}
+i.fa-css3-alt:hover{
+    color: #0000ff;
+}
+i.fa-js:hover{
+    color: #ffff00;
+}
+i.fa-php:hover{
+    color: #510080;
+}
+i.fa-python:hover{
+color: #004d80;
+}
+i.fa-wordpress-simple:hover{
+color: #005c80;
+}
+i.fa-r-project:hover{
+    color: #130080;
+}
